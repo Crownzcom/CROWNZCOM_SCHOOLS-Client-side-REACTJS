@@ -1,0 +1,72 @@
+/*PaymentMethods.css*/
+/*Order summery styles*/
+.order-summary {
+    background: #f7f8fd;
+    /* Background color for the whole summary area */
+    padding: 2rem 0;
+    /* Spacing around the summary area */
+}
+
+.order-summary .card {
+    border: none;
+    /* Remove card border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Add shadow for elevation effect */
+    border-radius: 10px;
+    /* Rounded corners for the card */
+}
+
+.order-summary .card-header {
+    background-color: #5267DF;
+    /* Header background color */
+    color: white;
+    /* Header text color */
+    font-size: 1.5rem;
+    /* Header font size */
+    border-radius: 10px 10px 0 0;
+    /* Rounded corners for the header */
+}
+
+.order-summary .card-body {
+    padding: 2rem;
+    /* Spacing inside the card body */
+}
+
+.order-summary .card-body .btn-primary {
+    background-color: #5267DF;
+    /* Primary button background color */
+
+    border: solid;
+    /* Remove button border */
+
+    padding: 10px 20px;
+    /* Button padding */
+
+    margin-top: 1rem;
+    /* Space above the button */
+}
+
+.order-summary .card-footer {
+    background-color: #dddde4;
+    /* Footer background color */
+    border-top: none;
+    /* Remove border at the top of the footer */
+}
+
+.order-summary .btn-cancel {
+    /* color: #5267DF; */
+    /* Secondary button text color */
+
+    /* background-color: transparent; */
+    /* Transparent background for secondary button */
+
+    border: solid;
+    /* Remove border for secondary button */
+}
+
+/*Payment selection styles*/
+.card-img-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,15 @@
+.add-package-container {
+    background-color: #a3c2e2;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.add-package-form .form-label {
+    font-weight: bold;
+}
+
+.add-package-form .form-text {
+    font-size: 0.875rem;
+    color: #6c757d;
+}

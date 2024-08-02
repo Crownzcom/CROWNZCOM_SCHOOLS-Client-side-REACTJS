@@ -1,0 +1,23 @@
+.card-payment-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    margin-bottom: 1rem;
+    /* Spacing between form fields */
+}
+
+/* Submit Button Styling */
+.btn-primary {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    /* Bootstrap primary color */
+    border-color: #007bff;
+    color: #fff;
+}
+
+/* Custom style adjustments can be added as needed */
